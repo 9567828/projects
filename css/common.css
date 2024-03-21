@@ -1,0 +1,74 @@
+.inner {
+  max-width: 144rem;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+.logo_wrap {
+  width: 17.7rem;
+  height: 2.8rem;
+}
+h1.hero_tit{
+  font-size: 5.7rem;
+  font-weight: 700;
+}
+
+.hero_sub_tit {
+  font-size: 2.3rem;
+  line-height: 1.7;
+}
+.con_txt {
+  font-size: 1.6rem;
+  color: #808080;
+}
+a.btn {
+  display: block;
+  width: 18.5rem;
+  height: 5.2rem;
+  padding: 1.5rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: .5rem;
+}
+a.btn_more {
+  display: block;
+  width: 16.8rem;
+  height: 4.5rem;
+  padding: 1rem 3.2rem;
+  border-radius: 1rem;
+  background-color: #E6E6E6;
+  color: #666666;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  position: relative;
+}
+a.btn_more::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 1rem);
+  right: 3rem;
+  width: 1.5rem;
+  height: 2rem;
+  background: url(../img/news_arrow3.png) no-repeat center/contain;
+}
+.dep_tit {
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.list_tit {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.list_txt {
+  font-size: 1.6rem;
+}
+.consulting_tit {
+  font-size: 3rem;
+  font-weight: 600  ;
+}

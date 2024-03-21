@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOMANSA</title>
+
+  <!-- css연결 -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- aos 연결 -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- 파비콘 -->
+  <link rel="icon" href="img/favicon.svg" />
+</head>
+
+<body>
+  <div id="container">
+    <div class="fixedTop"></div>
+
+    <!-- header -->
+    <header>
+      <div class="inner">
+        <h1 class="logo_wrap">
+        <a href="#">
+          <img src="img/LOGO_black.png" alt="logo_bl" class="logo_bl">
+          <img src="img/LOGO_blue.png" alt="logo_blue" class="logo_blue">
+        </a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">데이터보호</a></li>
+            <li><a href="#">개인정보보안</a></li>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="kebab_ico">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+      <div class="swiper hero_slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide s01">
+            <div class="inner">
+              <div class="tit_wrap">
+                <h1 class="hero_tit" data-aos="fade-right" data-aos-delay="200">개인정보보호 전문기업 소만사</h1>
+                <p class="hero_sub_tit" data-aos="fade-right" data-aos-delay="400">
+                  Gartner Magic Quadrant Enterprise DLP<br>
+                  아시아 최초 2년 연속 등재
+                </p>
+                <a href="#" class="btn" data-aos="fade-right" data-aos-delay="600">자세히보기</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide s02">
+            <div class="inner">
+              <div class="tit_wrap">
+                <h1 class="hero_tit" data-aos="fade-right" data-aos-delay="0">프라이버시 컨설팅서비스</h1>
+                <p class="hero_sub_tit" data-aos="fade-right" data-aos-delay="200">
+                  소만사는 800개 기관의 상황에 맞는 맞춤형 컨설팅을 제공합니다<br>
+                  CISA, CISSP, ISMS-P 인증심사 자격을 보유한 전문솔루션을 활용합니다.
+                </p>
+                <a href="#" class="btn" data-aos="fade-right" data-aos-delay="400">자세히보기</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide s03">
+            <div class="inner">
+              <div class="tit_wrap">
+                <h1 class="hero_tit" data-aos="fade-right" data-aos-delay="0">유해사이트차단 1위 기업</h1>
+                <p class="hero_sub_tit" data-aos="fade-right" data-aos-delay="200">
+                  엔드포인트 내부정보 데이터 유출방지 DLP 솔루션과<br>
+                  국내최대 DB 인프라를 통한 악성코드/유해사이트를 차단합니다.
+                </p>
+                <a href="#" class="btn" data-aos="fade-right" data-aos-delay="400">자세히보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- solution -->
+    <section class="solution">
+      <div class="inner">
+          <div class="tit_wrap">
+              <h1 class="dep_tit">
+                  solution
+              </h1>
+              <p class="con_txt">
+                  데이터와 정보를 완벽히 보호하고, 사이버 위협으로부터 안전하게<br> 유지하는 최적의 방법을 제공합니다.
+              </p>
+          </div>
+          <div class="content_wrap">
+              <div class="swiper slide">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide s01">
+                          <div class="con_wrap">
+                              <div class="img_wrap">
+                                  <img src="img/skill/protect_data_color.png" alt="개인정보 손실방지">
+                              </div>
+                              <div class="txt_wrap">
+                                  <p class="list_tit">개인정보 손실방지</p>
+                                  <p class="list_txt">네트워크 & 인터넷 통한 정보유출방지 솔루션 개인정보 유출,디도스,aPT,악성코드..  <!-- 공격에 취약한 SSL/TLS환경에서 암호화된 패킷 복호회를 통해 패킷에 대한 가시성 확보</p> -->
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide s02">
+                          <div class="con_wrap">
+                              <div class="img_wrap">
+                                  <img src="img/skill/protect_privacy_color.png" alt="개인정보 보호">
+                              </div>
+                              <div class="txt_wrap">
+                                  <p class="list_tit">개인정보 보호</p>
+                                  <p class="list_txt">sever-i 는 하나의 솔루션으로 서버 내 발생하는 데이터 
+                                      리스크를 탐지 대응하는 <통합 서버보안 솔루션></p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide s03">
+                          <div class="con_wrap">
+                              <div class="img_wrap">
+                                  <img src="img/skill/prevention_info_color.png" alt="정보유출방지">
+                              </div>
+                              <div class="txt_wrap">
+                                  <p class="list_tit">정보 유출 방지</p>
+                                  <p class="list_txt">privacy-i는 통합 엔터프라이즈 dLP기술력으로 
+                                      데이터 보호 관점에 기반을 두어 서버,PC,네트워크... <!--
+                                      데이터가 오가는 모든 채널을 보호하고 통제--></p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide s04">
+                          <div class="con_wrap">
+                              <div class="img_wrap">
+                                  <img src="img/skill/block_virus_color.png" alt="악성코드 차단">
+                              </div>
+                              <div class="txt_wrap">
+                                  <p class="list_tit">악성코드 차단</p>
+                                  <p class="list_txt">단일장비에서 SSL/TLS 복호화 & 유해사이트를 차단하여 악성코드/랜섬웨어로 부터 귀사의 정보자산을 보호</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide s05">
+                          <div class="con_wrap">
+                              <div class="img_wrap">
+                                  <img src="img/skill/network_separation_color.png" alt="논리적 망분리">
+                              </div>
+                              <div class="txt_wrap">
+                                  <p class="list_tit">논리적 망분리 DV-I</p>
+                                  <p class="list_txt">망연계 내재화, 26년 엔드포인트 보호 기술력을 접목한
+                                      시큐어 VDI 솔루션</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide s06">
+                          <div class="con_wrap">
+                              <div class="img_wrap">
+                                  <img src="img/skill/block_privacy_color.png" alt="개인정보 손실방지">
+                              </div>
+                              <div class="txt_wrap">
+                                  <p class="list_tit">개인정보 접근통제</p>
+                                  <p class="list_txt">DB-i는 개인정보 조회, 무단저장, 외부유출까지 보호하는
+                                      유일한 DB접근통제, DB DLP 솔루션</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>    
+              </div>
+              <div class="swiper-button-left"></div>
+              <div class="swiper-button-right"></div>
+          </div>
+      </div>
+  </section>
+
+    <!-- consulting -->
+    <section class="consulting">
+      <div class="inner">
+        <div class="txt_wrap">
+          <div class="dep_tit">
+            consulting
+          </div>
+          <p class="con_txt">
+            소만사는 800개 기관의 상황에 맞추어<br>
+            맞춤형 컨설팅을 수행해 드립니다.
+          </p>
+          <a href="#" class="btn">자세히보기</a>
+        </div>
+        <div class="swiper dep2_slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide dep2_01">
+              <a href="#" class="img_wrap_dep2">
+                <img src="img/dep2_1.png" alt="국가정보 보안 인증" />
+                <p class="consulting_tit">
+                  국가정보 보안 인증
+                </p>
+              </a>
+            </div>
+            <div class="swiper-slide dep2_02">
+              <a href="#" class="img_wrap_dep2">
+                <img src="img/dep2_2.png" alt="개인정보 영향 평가" />
+                <p class="consulting_tit">
+                  개인정보 영향 평가
+                </p>
+              </a>
+            </div>
+            <div class="swiper-slide dep2_03">
+              <a href="#" class="img_wrap_dep2">
+                <img src="img/dep2_3.png" alt="개인정보 관리진단" />
+                <p class="consulting_tit">
+                  개인정보 관리진단
+                </p>
+              </a>
+            </div>
+            <div class="swiper-slide dep2_04">
+              <a href="#" class="img_wrap_dep2">
+                <img src="img/dep2_4.png" alt="국제규정 정보 관리" />
+                <p class="consulting_tit">
+                  국제규정 정보 관리
+                </p>
+              </a>
+            </div>
+            <div class="swiper-slide dep2_05">
+              <a href="#" class="img_wrap_dep2">
+                <img src="img/dep2_5.png" alt="모의해킹컨설팅" />
+                <p class="consulting_tit">
+                  모의해킹컨설팅
+                </p>
+              </a>
+            </div>
+            <div class="swiper-slide dep2_06">
+              <a href="#" class="img_wrap_dep2">
+                <img src="img/dep2_6.png" alt="개인정보 보호 교육" />
+                <p class="consulting_tit">
+                  개인정보 보호 교육
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- clients -->
+    <section class="clients">
+      <div class="inner">
+        <div class="txt_wrap">
+          <div class="dep_tit">
+            clients
+          </div>
+          <p class="con_txt">
+            20년 연속 시장점유율 1위 소만사의 고객사들
+          </p>
+          <a href="#" class="btn">자세히보기</a>
+        </div>
+        <!-- 윗줄 -->
+        <div class="clients_slide">
+          <div class="row row1">
+            <a href="#" class="arrow left">left</a>
+            <a href="#" class="arrow right">right</a>
+            <div class="row_inner">
+              <img class="active" src="img/clients_logo_color/image_37.png" alt="slide">
+              <img  src="img/clients_logo_color/image_38.png" alt="slide">
+              <img  src="img/clients_logo_color/image_39.png" alt="slide">
+              <img  src="img/clients_logo_color/image_36.png" alt="slide">
+              <img  src="img/clients_logo_color/image_40.png" alt="slide">
+              <img  src="img/clients_logo_color/image_41.png" alt="slide">
+              <img  src="img/clients_logo_color/image_42.png" alt="slide">
+              <img  src="img/clients_logo_color/image_43.png" alt="slide">
+              <img  src="img/clients_logo_color/image_44.png" alt="slide">
+              <img  src="img/clients_logo_color/image_45.png" alt="slide">
+              <img class="active" src="img/clients_logo_color/image_37.png" alt="slide">
+              <img  src="img/clients_logo_color/image_38.png" alt="slide">
+              <img  src="img/clients_logo_color/image_39.png" alt="slide">
+              <img  src="img/clients_logo_color/image_36.png" alt="slide">
+              <img  src="img/clients_logo_color/image_40.png" alt="slide">
+              <img  src="img/clients_logo_color/image_41.png" alt="slide">
+              <img  src="img/clients_logo_color/image_42.png" alt="slide">
+              <img  src="img/clients_logo_color/image_43.png" alt="slide">
+              <img  src="img/clients_logo_color/image_44.png" alt="slide">
+              <img  src="img/clients_logo_color/image_45.png" alt="slide">
+
+            </div>
+          </div>
+          <div class="row row2">
+            <a href="#" class="arrow left">left</a>
+            <a href="#" class="arrow right">right</a>
+            <div class="row_inner">
+              <img class="active" src="img/clients_logo_color/image_46.png" alt="slide">
+              <img  src="img/clients_logo_color/image_47.png" alt="slide">
+              <img  src="img/clients_logo_color/image_48.png" alt="slide">
+              <img  src="img/clients_logo_color/image_50.png" alt="slide">
+              <img  src="img/clients_logo_color/image_51.png" alt="slide">
+              <img  src="img/clients_logo_color/image_52.png" alt="slide">
+              <img  src="img/clients_logo_color/image_53.png" alt="slide">
+              <img  src="img/clients_logo_color/image_54.png" alt="slide">
+              <img  src="img/clients_logo_color/image_55.png" alt="slide">
+              <img  src="img/clients_logo_color/image_49.png" alt="slide">
+              <img class="active" src="img/clients_logo_color/image_46.png" alt="slide">
+              <img  src="img/clients_logo_color/image_47.png" alt="slide">
+              <img  src="img/clients_logo_color/image_48.png" alt="slide">
+              <img  src="img/clients_logo_color/image_50.png" alt="slide">
+              <img  src="img/clients_logo_color/image_51.png" alt="slide">
+              <img  src="img/clients_logo_color/image_52.png" alt="slide">
+              <img  src="img/clients_logo_color/image_53.png" alt="slide">
+              <img  src="img/clients_logo_color/image_54.png" alt="slide">
+              <img  src="img/clients_logo_color/image_55.png" alt="slide">
+              <img  src="img/clients_logo_color/image_49.png" alt="slide">
+            </div>
+          </div>
+          </div>
+        </div>
+    </section>
+  
+    <!-- subbanner -->
+    <section class="banner">
+      <div class="inner">
+        <div class="txt_wrap">
+          <h4 class="dep_tit">
+            privacy<br>
+            report
+          </h4>
+          <p class="con_txt">
+            2011년부터 지금까지 국내 2만여 보안담당자를 대상으로 약 400회 발간,<br>
+            총 8백만통의 개인정보소식을 전달한 국내유일 개인정보법제 분석리포트를 제공합니다.
+          </p>
+          <a href="#" class="btn">자세히보기</a>
+        </div>
+      </div>
+    </section>
+  
+    <!-- news -->
+    <section class="news">
+      <div class="inner">
+        <h4 class="dep_tit" data-aos="fade-up">소만사가 드리는 정보!</h4>
+        <div class="news_wrap">
+          <div class="news_cont" data-aos="fade-right" data-aos-delay="0">
+            <span>01</span>
+            <div class="tit_wrap bc1">
+              <h4 class="con_txt">[보도자료]</h4>
+              <p>
+                보안문제, 위험성, 보고서<br>
+                가이드라인, 교육 자료 통과<br>
+                관련된 보도자료를 제공합니다.
+              </p>
+            </div>
+            <a href="#" class="btn_more">더보기</a>
+          </div>
+          <div class="news_cont" data-aos="fade-right" data-aos-delay="200">
+            <span>02</span>
+            <div class="tit_wrap bc2">
+              <h4 class="con_txt">[프라이버시 리포트]</h4>
+              <p>
+                온라인 서비스 및 어플리케이션에서<br>
+                사용자의 개인정보와 데이터<br>
+                처리에 대한 투명성을 제공합니다.
+              </p>
+            </div>
+            <a href="#" class="btn_more">더보기</a>
+          </div>
+          <div class="news_cont" data-aos="fade-right" data-aos-delay="400">
+            <span>03</span>
+            <div class="tit_wrap bc3">
+              <h4 class="con_txt">[보안 업데이트]</h4>
+              <p>
+                보안 업데이트, 취약성 공지,<br>
+                중요한 보안 정보를 게시하고<br>
+                업데이트를 제공합니다.
+              </p>
+            </div>
+            <a href="#" class="btn_more">더보기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- footer -->
+    <footer>
+      <div class="inner">
+        <div class="left">
+          <div class="logo_wrap">
+            <img src="img/LOGO_white.png" alt="logo_wh" />
+          </div>
+          <div class="info">
+            <p>대표번호 : 02-2636-8300 | 기술문의 : 02-2655-9733 / <a href="#">tech@somansa.com</a></p>
+            <p>제품구매 : 02-2655-4040 / <a href="#">sales@somansa.com</a></p>
+            <p>서울특별시 영등포구 영신로220 KnK디지털타워 9층 소만사</p>
+          </div>
+        </div>
+        <div class="right">
+          <a href="#" class="email_wrap">
+            <p>이메일문의</p>
+            <img src="img/icon_email.png" alt="email">
+          </a>
+          <div class="privacy">
+            <a href="#">
+              <p>개인정보처리방침</p>
+            </a>
+            <a href="#">
+              <p>COPYRIGHT©2023 SOMANSA CO.,LTD ALL RIGHTS RESERVED.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <!-- aos 연결  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- js -->
+  <!-- <script src="js/script copy.js"></script> -->
+  <script src="js/cl_slider.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/animation.js"></script>
+</body>
+</html>
