@@ -1,0 +1,166 @@
+html,
+body {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+.scrollElement {
+  height: 200vh;
+  position:absolute;
+  top:0;
+  width:100px;
+  background-color: antiquewhite;
+  left:0;
+  z-index: 5;
+
+}
+section {
+  height: 100vh;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+}
+
+section:nth-child(even) {
+  background-color: rgb(250, 239, 255);
+}
+
+.rel {
+  max-width: 144rem;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+section:nth-child(even) .rel {
+  align-items: flex-start;
+}
+
+h1.title {
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+p.txt {
+  font-size: 2.5rem;
+  max-width: 60%;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 3rem;
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+}
+
+.top {
+  position: fixed;
+  z-index: 5;
+  right: 2rem;
+  bottom: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* 0 */
+#s0 {
+
+  width: 100vw;
+  height: 200vh;
+  z-index: 0;
+  background: url(https://picsum.photos/seed/picsum/1920/1080) no-repeat center/cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  z-index: 0;
+}
+.fixed_top{
+  font-size: 30px;
+  position: absolute;
+  right:100px;
+}
+#s0 .rel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200vh;
+  width: 100%;
+  z-index: 0;
+}
+
+#s0 .title {
+  position:fixed;
+  top:40%;
+}
+#s0 .title.t2 {
+  opacity: 0;
+}
+
+
+#s1 {
+  /* margin-top: 100vh; */
+  z-index: 3;
+}
+
+.circle {
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  position: absolute
+}
+
+.circle:after {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background-color: red;
+  display: block;
+  content: "";
+  top: -.5rem;
+  left: calc(50% - .5rem)
+}
+
+
+#s6 .circle {
+  right: 20%;
+  top: -10%
+}
+
+#s7 .circle {
+  width: 30rem;
+  height: 30rem;
+  bottom: 20%;
+  left: 30%
+}
+
+.nav {
+  position: fixed;
+  right: 1.5rem;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+  padding-top: 1.5rem;
+}
+
+.nav li {
+  position: relative;
+  margin-top: 2rem;
+  line-height: 3rem;
+  color: #fff;
+  cursor: pointer;
+  opacity: .4;
+  text-indent: -9999px;
+  transition: all .3s;
+  width: 1rem;
+  height: 1rem;
+  background-color: #ccc;
+}
+
+.nav li.active {
+  background-color: red;
+
+}

@@ -1,0 +1,5 @@
+transition-property: visibility, top, opacity, background-color, height, width;
+	transition-duration: 0s, 0.2s, 0.3s, 0.1s, 0.8s, 0.8s;
+	transition-delay: 0s, 0s, 0s, 0.25s, 0.25s, 0.25s;
+	transition-timing-function:linear, ease-out,linear,linear, cubic-bezier(1.000, -0.130, 0.000, 0.810), cubic-bezier(1.000, -0.130, 0.000, 0.810);
+opacity: 0.3;

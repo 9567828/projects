@@ -1,0 +1,124 @@
+section {
+  height: 100vh;
+  position: relative;
+}
+h1.hero_tit {
+  font-family: 'Elice Digital Coding', 'monospace';
+  font-size: 14rem;
+  letter-spacing: -1rem;
+  color: #fff;
+}
+.dep_tit {
+  font-family: 'Encode Sans Condensed' , 'Apple SD Gothic Neo';
+  font-size: 16.5rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  color: #F8B400;
+}
+.con_tit {
+  font-family: 'paybooc';
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 4rem;
+  letter-spacing: .1rem;
+  color: #212121;
+}
+.con_txt {
+  font-family: 'paybooc';
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  letter-spacing: 0.02rem;
+  color: #757575;
+}
+.sub_tit {
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 6rem;
+  text-transform: uppercase;
+  color: #082032;
+  margin-bottom: 2rem;
+}
+.sub_tit_name {
+  font-family: 'paybooc';
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+.sub_txt1 {
+  font-family: 'paybooc';
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3E3E3E;
+  margin-bottom: 1rem;
+}
+.sub_txt2 {
+  font-family: 'paybooc';
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  line-height: 3.2rem;
+  margin-top: 4rem;
+  /* margin: 4rem 0 10rem 0; */
+}
+span.lang_icon { 
+  display: block;
+  width: 11.8rem;
+  height: 3.5rem;
+  border-radius: .4rem;
+  background-color: #4EAAFF;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  letter-spacing: -0.09rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+span.lang_icon.css {
+  background-color: #FF8A00;
+}
+span.lang_icon.js {
+  background-color: #F7DB6A;
+  color: #802E00;
+  text-transform: capitalize;
+}
+span.lang_icon.jquery {
+  background-color: #2FB400;
+  text-transform: capitalize;
+}
+span.lang_icon.vue_js {
+  background-color: #41B883;
+  color: #34495E;
+  text-transform: capitalize;
+}
+a.btn {
+  display: block;
+  width: 20.7rem;
+  height: 5.4rem;
+  padding: 0 4rem;
+  background-color: #082032;
+  color: #fff;
+  border-radius: 5rem;
+  text-align: left;
+  font-family: 'paybooc';
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 5.1rem;
+  position: relative;
+}
+a.btn::after {
+  content: '';
+  width: 5rem;
+  height: 1.3rem;
+  position: absolute;
+  top: 1.9rem;
+  background: url(../img/arrow_more.png) no-repeat center/contain;
+}
+a.btn:hover {
+  transition: .2s all;
+  box-shadow: 0 .4rem .4rem 0 rgba(0, 0, 0, 0.25);
+}
