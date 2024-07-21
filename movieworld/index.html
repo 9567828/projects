@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOVIE WORLD</title>
+  
+  <!-- css연결 -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- 파비콘 -->
+  <link rel="icon" href="img/Vector_favicon.png" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <div class="fixedTop"></div>
+    <header>
+      <div class="inner">
+        <h1 class="tit_mob">
+          <a href="#">
+            <img src="img/mob_logo_wh.png" alt="logo" class="mob_logo_wh" />
+            <img src="img/mob_logo_bl.png" alt="logo" class="mob_logo_bl" />
+          </a>
+        </h1>
+        <h1 class="tit">
+          <a href="#">
+            <img src="img/logo_white.png" alt="logo_wh" class="logo_wh" />
+            <img src="img/logo_black.png" alt="logo_bl" class="logo_bl" />
+          </a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#">홈</a></li>
+            <li><a href="#">영화</a></li>
+            <li><a href="#">영화관추천</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="kebab_ico">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+    </header>
+    
+    <section class="hero">
+      <div class="inner">
+        <div class="tit_wrap">
+          <h3 class="hero_tit" data-aos="fade-right">
+            movie world
+          </h3>
+          <p class="hero_sub_tit" data-aos="fade-left" data-aos-delay="200">
+            국내 영화관과 각종 OTT 서비스 정보를 한 번에 확인하세요!
+          </p>
+          <a href="#" class="btn" data-aos="fade-right" data-aos-delay="400">book now</a>
+        </div>
+      </div>
+    </section>
+    <section class="dep1">
+      <div class="inner">
+        <div class="tit_wrap">
+          <h3 class="list_tit">
+            영화순위
+          </h3>
+          <ul class="ranking">
+            <li><a href="#" class="list_cont On">박스오피스</a></li>
+            <li><a href="#" class="list_cont">예매율</a></li>
+          </ul>
+        </div>
+        <!-- Swiper, 영화이미지 -->
+        <div class="swiper movie_slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide s01">
+              <a href="#">
+                <div class="ranking_img_wrap">
+                  <img src="img/movie_open.png" alt="open" class="movie_img" />
+                  <div class="ranking_number">1</div>
+                  <div class="rate_img"></div>
+                </div>
+                <h4 class="card_tit">
+                  오펜하이머
+                </h4>
+                <p class="card_cont">관객수: 2.2만명 • <span class="red">★</span> 7.8점</p>
+              </a>
+            </div>
+            <div class="swiper-slide s02">
+              <a href="#">
+                <div class="ranking_img_wrap">
+                  <img src="img/movie_target.png" alt="target" class="movie_img" />
+                  <div class="ranking_number">2</div>
+                  <div class="rate_img"></div>
+                </div>
+                <h4 class="card_tit">
+                  타겟
+                </h4>
+                <p class="card_cont">관객수: 2.2만명 • <span class="red">★</span> 7.8점</p>
+              </a>
+            </div>
+            <div class="swiper-slide s03">
+              <a href="#">
+                <div class="ranking_img_wrap">
+                  <img src="img/movie_sweet.png" alt="sweet" class="movie_img" />
+                  <div class="ranking_number">3</div>
+                  <div class="rate_img"></div>
+                </div>
+                <h4 class="card_tit">
+                  달짝지근해: 7510
+                </h4>
+                <p class="card_cont">관객수: 2.2만명 • <span class="red">★</span> 7.8점</p>
+              </a>
+            </div>
+            <div class="swiper-slide s04">
+              <a href="#">
+                <div class="ranking_img_wrap">
+                  <img src="img/movie_conc.png" alt="conc" class="movie_img" />
+                  <div class="ranking_number">4</div>
+                  <div class="rate_img"></div>
+                </div>
+                <h4 class="card_tit">
+                  콘크리트유토피아
+                </h4>
+                <p class="card_cont">관객수: 2.2만명 • <span class="red">★</span> 7.8점</p>
+              </a>
+            </div>
+            <div class="swiper-slide s05">
+              <a href="#">
+                <div class="ranking_img_wrap">
+                  <img src="img/movie_sleep.png" alt="sleeping" class="movie_img" />
+                  <div class="ranking_number">5</div>
+                  <div class="rate_img"></div>
+                </div>
+                <h4 class="card_tit">
+                  잠
+                </h4>
+                <p class="card_cont">관객수: 2.2만명 • <span class="red">★</span> 7.8점</p>
+              </a>
+            </div>
+            <div class="swiper-slide s05">
+              <a href="#">
+                <div class="ranking_img_wrap">
+                  <img src="img/movie_sleep.png" alt="sleeping" class="movie_img" />
+                  <div class="ranking_number">5</div>
+                  <div class="rate_img"></div>
+                </div>
+                <h4 class="card_tit">
+                  잠
+                </h4>
+                <p class="card_cont">관객수: 2.2만명 • <span class="red">★</span> 7.8점</p>
+              </a>
+            </div>
+            <div class="swiper-slide s05">
+              <a href="#">
+                <div class="ranking_img_wrap">
+                  <img src="img/movie_sleep.png" alt="sleeping" class="movie_img" />
+                  <div class="ranking_number">5</div>
+                  <div class="rate_img"></div>
+                </div>
+                <h4 class="card_tit">
+                  잠
+                </h4>
+                <p class="card_cont">관객수: 2.2만명 • <span class="red">★</span> 7.8점</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <section class="dep2">
+      <div class="dep2_bg"></div>
+      <div class="inner">
+        <div class="tit_wrap">
+          <img src="img/sleep_txt.png" alt="sleep_txt" data-aos="fade-up" />
+          <p class="dep2_txt" data-aos="fade-up" data-aos-delay="200">절찬상영중</p>
+        </div>
+        <a href="#" class="btn" data-aos="fade-up" data-aos-delay="400">book now</a>
+      </div>
+    </section>
+    <section class="dep3">
+      <div class="inner">
+        <div class="tit_wrap">
+          <h3 class="list_tit">
+            이벤트
+          </h3>
+          <ul class="event_wrap">
+            <li><a href="#" class="list_cont On">전체</a></li>
+            <li><a href="#" class="list_cont">영화</a></li>
+            <li><a href="#" class="list_cont">극장</a></li>
+            <li><a href="#" class="list_cont">시사회/무대인사</a></li>
+          </ul>
+        </div>
+        <ul class="dep3_list">
+          <li data-aos="fade-up">
+            <a href="#">
+              <div class="card_img">
+                <img src="img/movie_cheon2.png" alt="dr_cheon" id="event_img1" />
+                <img src="img/mega_white.png" alt="mega_wh" class="cinema_logo"/>
+              </div>
+              <div class="txt_wrap">
+                <h4 class="dep3_card_tit">
+                  <천박사 퇴마연구소: 설경의 비밀> 무대인사
+                </h4>
+                <p class="dep3_card_con">
+                  2023.09.24 ~ 2023.09.24
+                </p>
+              </div>
+            </a>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="200">
+            <a href="#">
+              <div class="card_img">
+                <img src="img/movie_godo11.jpg" alt="godo" />
+                <img src="img/mega_white.png" alt="mega_wh" class="cinema_logo"/>
+              </div>
+              <div class="txt_wrap">
+                <h4 class="dep3_card_tit">
+                  <절해고도> 변성현 감독 x 이연 배우 메가토크
+                </h4>
+                <p class="dep3_card_con">
+                  2023.09.22 ~ 2023.09.22
+                </p>
+              </div>
+            </a>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="400">
+            <a href="#">
+              <div class="card_img">
+                <img src="img/cgv_seotaji.png" alt="seotaji" />
+                <img src="img/cgv_white.png" alt="cgv_wh" class="cinema_logo"/>
+              </div>
+              <div class="txt_wrap">
+                <h4 class="dep3_card_tit">
+                  <서태지 25주년 라이브 타임 - 트래블러 싱어롱> 상영회
+                </h4>
+                <p class="dep3_card_con">
+                  2023.09.01 ~ 2023.09.09
+                </p>
+              </div>
+            </a>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="600">
+            <a href="#">
+              <div class="card_img">
+                <img src="img/movie_harrypoter4dx.jpg" alt="harrypotter" />
+                <img src="img/cgv_white.png" alt="cgv_wh" class="cinema_logo"/>
+              </div>
+              <div class="txt_wrap">
+                <h4 class="dep3_card_tit">
+                  <해리포터와 혼혈왕자> 4DX 스페셜 포스터
+                </h4>
+                <p class="dep3_card_con">
+                  2023.09.08 ~ 2023.09.19
+                </p>
+              </div>
+            </a>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="800">
+            <a href="#">
+              <div class="card_img">
+                <img src="img/event_sweet.png" alt="sweet" id="event_img5" />
+                <img src="img/lotte_white.png" alt="lotte_wh" id="event5" class="cinema_logo"/>
+              </div>
+              <div class="txt_wrap">
+                <h4 class="dep3_card_tit">
+                  <달짝지근해: 7510> 감사해진 무대인사
+                </h4>
+                <p class="dep3_card_con">
+                  2023.09.10 ~ 2023.09.10
+                </p>
+              </div>
+            </a>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="1000">
+            <a href="#">
+              <div class="card_img">
+                <img src="img/movie_boston.jpg" alt="movie_boston" />
+                <img src="img/lotte_red.png" alt="lotte_red" id="event6" class="cinema_logo"/>
+              </div>
+              <div class="txt_wrap">
+                <h4 class="dep3_card_tit">
+                  <1947 보스톤> 회원 시사회
+                </h4>
+                <p class="dep3_card_con">
+                  2023.09.07 ~ 2023.09.19
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div class="ftr_dep1">
+        <div class="inner">
+          <ul class="ftr_dep1_list">
+            <li><a href="#">예매하기</a>
+              <ul class="ftr_dep1_list_sub">
+                <li><a href="#">무비차트</a></li>
+                <li><a href="#">상영시간표</a></li>
+              </ul>
+            </li>
+            <li><a href="#">영화</a>
+              <ul class="ftr_dep1_list_sub">
+                <li><a href="#">상영작순위</a></li>
+                <li><a href="#">인기순위</a></li>
+                <li><a href="#">장르별순위</a></li>
+                <li><a href="#">단편/독립영화</a></li>
+                <li><a href="#">OTT추천</a></li>
+              </ul>
+            </li>
+            <li><a href="#">영화관추천</a>
+              <ul class="ftr_dep1_list_sub">
+                <li><a href="#">이색극장</a></li>
+                <li><a href="#">영화관별 자리</a></li>
+              </ul>
+            </li>
+            <li><a href="#">이벤트</a>
+              <ul class="ftr_dep1_list_sub">
+                <li><a href="#">영화</a></li>
+                <li><a href="#">극장</a></li>
+                <li><a href="#">시사회/무대인사</a></li>
+                <li><a href="#">할인안내</a></li>
+              </ul>
+            </li>
+            <li><a href="#">고객센터</a>
+              <ul class="ftr_dep1_list_sub">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">문의하기</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="ftr_dep2">
+        <h4>
+          <img src="img/logo_white.png" alt="logo_wh" />
+        </h4>
+        <ul class="ftr_list">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보방침</a></li>
+          <li><a href="#">쿠키</a></li>
+        </ul>
+        <ul class="ftr_icons">
+          <li><a href="#"><img src="img/footer_icon_1.png" alt="icon1"></a></li>
+          <li><a href="#"><img src="img/footer_icon_2.png" alt="icon2"></a></li>
+          <li><a href="#"><img src="img/footer_icon_3.png" alt="icon3"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000
+    });
+  </script>
+
+  <!-- 자바연걸 -->
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+.hero_tit {
+  font-family: 'GmarketSansMedium';
+  font-weight: 700;
+  font-size: 8.3rem;
+  text-transform: uppercase;
+}
+.hero_sub_tit {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+a.btn {
+  display: inline-block;
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+.list_tit {
+  font-family: 'BCcardB';
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.18rem;
+}
+.list_cont {
+  font-family: 'paybooc-Bold';
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: -0.06rem;
+  color: #57555C;
+}
+.card_tit {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.card_cont {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+span.red {
+  color: #f00;
+}
+.dep2_txt {
+  font-family: 'SeoulHangangM';
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #3C62E9;
+}
+.dep3_card_tit {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+}
+.dep3_card_con {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.inner {
+  position: relative;
+  max-width: 144rem;
+  height: 100%;
+  margin: auto;
+}
