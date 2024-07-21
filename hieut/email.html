@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post" data-email="kimssi9567@gmail.com" class="gform">
+      <div class="email_wrap" style="display: block">
+        <div class="option">
+          <label for="option">문의하실 유형을 선택해 주세요</label>
+          <select name="option" id="option">
+            <option value="견적상담">견적상담</option>
+            <option value="입점신청">입점신청</option>
+            <option value="제휴/광고문의">제휴/광고문의</option>
+          </select>
+        </div>
+        <div class="email">
+          <label for="email"
+            >이메일:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="이메일을 입력해주세요"
+              required
+            />
+          </label>
+        </div>
+        <div class="name">
+          <label for="name"
+            >이름:
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="이름을 입력해주세요"
+              required
+            />
+          </label>
+        </div>
+        <div class="img_wrap">
+          <label for="image">이미지를 올려주세요</label>
+          <input type="file" name="image" id="image" accept="image/*" multiple />
+          <img id="previewImg" width="700" alt="이미지 영역" />
+        </div>
+        <div class="text">
+          <label for="text"
+            >내용:
+            <textarea
+              id="text"
+              name="message"
+              type="text"
+              placeholder="내용을 입력해주세요"
+              required
+            >
+            </textarea>
+          </label>
+        </div>
+        <button onclick="return emailCheck()">보내기</button>
+      </div>
+      <div class="aftersend" style="display: none">
+        <p>
+          이메일 전송이 완료 되었습니다.<br />
+          빠르게 확인하여 회신 드리겠습니다.<br />
+          감사합니다.
+        </p>
+        <button onclick="history.back()">이전페이지로 돌아가기</button>
+      </div>
+    </form>
+
+    <script
+      data-cfasync="false"
+      type="text/javascript"
+      src="js/email.js"
+    ></script>
+  </body>
+</html>
